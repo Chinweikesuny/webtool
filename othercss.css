@@ -1,0 +1,88 @@
+/*Contact Us*/
+.menu-cover{
+    display: flex;
+    height: 96vh;
+    background-image: url("/images/menu-black.jpg");
+    background-size: 100% 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px rgb(41, 39, 39);
+    margin-top: 20px;
+   position: relative;
+ 
+}
+
+
+.text-alignment{
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-items: center;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.952);
+    
+}
+
+
+
+.text-alignment h1{
+    color: #fff;
+    margin-top: 350px;
+    text-transform: 2px 2px 2px gray;
+    font-weight: bold;
+}
+
+
+
+
+
+.location{
+    width:80%;
+    margin:auto;
+    padding:80px 0;
+    
+  }
+  
+  .location iframe{
+    width:100%;
+    align-items: center;
+  }
+  
+  .contact-us{
+    width:80%;
+    margin:auto;
+  }
+  
+  .wrapper{
+    flex-basis:48%;
+    margin-bottom:30px;
+  }
+  
+  .wrapper div{
+    display:flex;
+    align-items:center;
+   
+  }
+  
+  .wrapper div .fa{
+    font-size:28px;
+    color:#26283B;
+    margin:10px;
+   
+  }
+
+ .wrapper div .fab{
+    font-size:40px;
+    color:#26283B;
+    margin:10px;}
+  
+
+    .about{
+        margin-top: 20px;
+        padding: 20px;
+        font-size: 20px;
+    }
